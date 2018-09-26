@@ -5,5 +5,5 @@ function setaws {
     export AWS_PROFILE=$1
   fi
 }
-export NPM_TOKEN=${process.env.NPM_TOKEN}
+# export NPM_TOKEN=${process.env.NPM_TOKEN}
 

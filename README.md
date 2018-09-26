@@ -13,6 +13,8 @@ positive attitude
 
 If this is your first time using NPM, you will have to register for an account and receive access to Alchemy's NPM group.
 
+Will also need to symlink this folder for your bash_profile
+
 ## Getting Started
 
 clone this repo
