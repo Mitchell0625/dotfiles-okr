@@ -13,14 +13,13 @@ positive attitude
 
 If this is your first time using NPM, you will have to register for an account and receive access to Alchemy's NPM group.
 
-Will also need to symlink this folder for your bash_profile
-
 ## Getting Started
 
-clone this repo
-cd into project folder
-enter 'source .bash_profile
-
-##Files that need info
-
-.bash_profile
+1. clone this repo
+2. cd into dotfiles folder
+3. create .bash_secrets at the root directory of this folder
+4. add 'export NPM_TOKEN='add-your-token' to .bash_secrets
+5. symlink your bash_profile to the home directory
+   (ln -sv ~/dotfiles/.bash_profile ~) --do not enter the ()
+6. enter source brew.sh into terminal
+7. watch the magic happen
